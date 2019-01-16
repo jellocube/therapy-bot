@@ -1,7 +1,7 @@
 {
 	"servers": [
 		{
-			"name": "Psychedelic Praxis",
+			"name": "Praxis",
 			"id": "350132819307003905",
             "moderation": true,
             "muteThreshold": 2,
@@ -21,7 +21,7 @@
             }
         },
         {
-			"name": "Psychedelic Directory",
+			"name": "Directory",
 			"id": "510971727967289360",
 			"moderation": true,
             "muteThreshold": 2,
@@ -59,46 +59,6 @@
                 "library": "casual",
                 "logs": "logs"
             }
-        },
-        {
-			"name": "Actual Hippies",
-			"id": "428786269661822976",
-			"moderation": false,
-            "muteThreshold": false,
-            "muteReact": "false",
-            "greeting": false,
-            "greetChannel": "casual",
-            "prefix": "!",
-            "channels": {
-                "introductions": false,
-                "arbitration": false,
-                "community": false,
-                "meetups": false,
-                "casual": false,
-                "server": false,
-                "library": false,
-                "logs": false
-            }
-        },
-        {
-			"name": "Subjective Index Documentation",
-			"id": "332288651394547712",
-			"moderation": false,
-            "muteThreshold": false,
-            "muteReact": false,
-            "greeting": false,
-            "greetChannel": false,
-            "prefix": "!",
-            "channels": {
-                "introductions": false,
-                "arbitration": false,
-                "community": false,
-                "meetups": false,
-                "casual": false,
-                "server": false,
-                "library": false,
-                "logs": false
-            }
-		}
+        }
 	]
 }

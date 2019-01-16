@@ -29,35 +29,29 @@ client.commands = new Discord.Collection();
 client.commands.set('ping', require('./src/commands/ping.js'));
 client.commands.set('serverinfo', require('./src/commands/serverinfo.js'));
 client.commands.set('serverpost', require('./src/commands/serverpost.js'));
-client.commands.set('safety', require('./src/commands/safety.js'));
-client.commands.set('cannabinoids', require('./src/commands/cannabinoids.js'));
+// client.commands.set('safety', require('./src/commands/safety.js'));
+
 client.commands.set('template', require('./src/commands/template.js'));
 client.commands.set('roll', require('./src/commands/roll.js'));
 client.commands.set('help', require('./src/commands/help.js'));
-client.commands.set('library', require('./src/commands/library.js'));
-client.commands.set('directory', require('./src/commands/directory.js'));
-client.commands.set('meetup', require('./src/commands/meetup.js'));
-client.commands.set('community', require('./src/commands/community.js'));
+
 client.commands.set('nvc', require('./src/commands/nvc.js'));
 client.commands.set('visuals', require('./src/commands/visuals.js'));
 client.commands.set('visual', require('./src/commands/visuals.js'));
 client.commands.set('videos', require('./src/commands/visuals.js'));
 client.commands.set('video', require('./src/commands/visuals.js'));
-client.commands.set('torrent', require('./src/commands/torrent.js'));
 client.commands.set('breathe', require('./src/commands/breath.js'));
 client.commands.set('breath', require('./src/commands/breath.js'));
 client.commands.set('crystals', require('./src/commands/crystals.js'));
 client.commands.set('crystal', require('./src/commands/crystals.js'));
-client.commands.set('tarot', require('./src/commands/tarot.js'));
+
 client.commands.set('worksheets', require('./src/commands/worksheets.js'));
 client.commands.set('worksheet', require('./src/commands/worksheets.js'));
 
 
 // setting all the role commands to /features/role.js. Some of these could be added to the userRoles script through a clever and consolidated function.
-client.commands.set('microdosing', require('./src/commands/userRoles.js'));
-client.commands.set('altered', require('./src/commands/userRoles.js'));
-client.commands.set('tripping', require('./src/commands/userRoles.js'));
-client.commands.set('stoned', require('./src/commands/userRoles.js'));
+client.commands.set('intoxicated', require('./src/commands/userRoles.js'));
+client.commands.set('medicated', require('./src/commands/userRoles.js'));
 
 // call handleMessage(message) on client.on('message') event; // event call provides function parameter ('message') automagically
 client.on('ready', () => require('./src/events/ready.js')(client));

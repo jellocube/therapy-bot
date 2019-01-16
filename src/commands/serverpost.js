@@ -28,12 +28,12 @@ module.exports = (client, message, args) => {
               },
               "fields": [
 				{
-					"name": "Welcome to Psychedelic Praxis",
+					"name": "Welcome to Praxis",
 					"value": "This community aims for constructive dialogue, peer support,\n and globally-inclusive research, news, and policy updates.\n [Visit us on reddit](https://old.reddit.com/r/psychedelicpraxis/) or browse our [Psychedelic Library hosted by the-eye.eu](https://the-eye.eu/public/Psychedelics/Psychedelic%20Praxis%20Library%203.0/). A full download of the library (which takes up 15.6gb)\n is also available from the-eye."
 				},
                 {
                   "name": "Who the server is for:",
-                  "value": "(a) people exploring psychedelic therapy or altered states\n(b) seeking resources that facilitate personal growth and safe drug consumption\n(c) discussing quandaries inherent in expanded consciousness and hyperawareness\n(d) learning to convert personal struggle into compassion for oneself and others.\n "
+                  "value": "(a) people exploring therapy or altered states\n(b) seeking resources that facilitate personal growth and safe drug consumption\n(c) discussing quandaries inherent in expanded consciousness and hyperawareness\n(d) learning to convert personal struggle into compassion for oneself and others.\n "
                 },
                 {
                   "name": "You are expected to strive for these qualities in communication:",
@@ -69,7 +69,7 @@ module.exports = (client, message, args) => {
 			  "value": "Requesting or giving sources for drugs is strictly prohibited, including any mention of active darknet markets (DNMs). Discussion of drug economies/cryptocurrency/security is allowed."
 			},
 			{
-			  "name": "6. No photo-based drug identification",
+			  "name": "6. No photo-based identification",
 			  "value": "Do not ask other users to identify substances by photo. Please test chemicals using reagent kits as outlined in the command !safety drugtesting."
       },
       {
@@ -168,14 +168,14 @@ module.exports = (client, message, args) => {
 	if (args == "5") {
 		return serverChannel.send({
 			embed: {
-						"title": "Psychedelic Library & Directory",
-			"description": "Psychedelic Praxis compiling a library of academic and educational literature pertaining to entheogens, their history, and the safe therapeutic use of mind-expanding psychotropic drugs. We are in the process of creating a searchable online directory for all known psychedelic literature. If you find an item which is missing from our library, please contact a @:books: Researcher so that it may be added!",
-				"url": "http://the-eye.eu/public/Psychedelics/Psychedelic%20Praxis%20Library%203.0/",
+						"title": "Library & Directory",
+			"description": "Praxis compiling a library of academic and educational literature pertaining to entheogens, their history, and the safe therapeutic use of mind-expanding psychotropic drugs. We are in the process of creating a searchable online directory for all known psychedelic literature. If you find an item which is missing from our library, please contact a @:books: Researcher so that it may be added!",
+				"url": "google.com",
 		
 				"fields": [
 					{
 						"name": "Current library holdings:",
-						"value": ":floppy_disk: 3,500+ written documents including journal articles, academic studies, seminal books, regular publications, textbooks\n:leaves: 1,900+ books and studies on cannabis (thanks DMT-Nexus!)\n:headphones: 110+ audio recordings of healing psychedelic music and protocols, with clinical and ethnographic documentation\n:books: 130+ back issues from major psychedelic publications past and present\n:smile_cat: 60+ emojis related to psychedelic culture\n:projector: 20+ vintage films, primary source documentaries, and interviews\n:mag_right: a searchable INDEX.txt, harm reduction resources, information on current and enrolling clinical studies, listing of real-life psychedelic societies\n:satellite_orbital: a .torrent for the Psychedelic Praxis Multimedia Release 1.0, containing an additional 50GB of psychedelic video and audio"
+						"value": "Nothing!"
 					},
 					{
 						"name": "Torrent magnet link URL:",
