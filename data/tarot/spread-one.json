@@ -1,0 +1,34 @@
+{
+	"id": "one",
+	"name": "Random Card",
+	"cards": 1,
+	"layout": [
+		[1]
+	],
+	"layoutImage": {
+		"size": {
+			"height": 300,
+			"width": 200
+		},
+		"querent": {
+			"size": {
+				"height": 210,
+				"width": false
+			}
+		},
+		"cards": [
+			{
+				"placement": {
+					"x": 35,
+					"y":45
+				},
+				"size": {
+					"height": 210,
+					"width": false
+				},
+				"label": "1"
+			}
+		]
+	}
+}
+

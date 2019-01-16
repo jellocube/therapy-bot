@@ -1,0 +1,100 @@
+{
+	"commands": [
+		{
+			"command": "!breathe",
+			"description": "Displays a guided breathing exercise.",
+			"roleRequired": false,
+			"examples": ["!breathe"]
+		},
+		{
+			"command": "!community [member]",
+			"description": "Add specified member to community role and send welcome/information message",
+			"roleRequired": "operator",
+			"examples": ["!meetup sibyl-oracle#5143"]
+		},
+		{
+			"command": "!crystal [optional crystal name]",
+			"description": "Displays information on a random crystal, or on a crystal you specify.",
+			"roleRequired": false,
+			"examples": ["!crystal", "!crystal moonstone"]
+		},
+		{
+			"command": "!directory [query]",
+			"description": "Search the psychedelic directory for organizations, therapists, clinical trials, and other resources",
+			"roleRequired": false,
+			"examples": ["!directory", "!directory studies maryland"]
+		},
+		{
+			"command": "!help",
+			"description": "Show bot information and commands available to you",
+			"roleRequired": false,
+			"examples": []
+		},
+		{
+			"command": "!library [query]",
+			"description": "Search the psychedelic library catalogue for a given query related to academic or cultural texts and media",
+			"roleRequired": false,
+			"examples": ["!library", "!library cannabis psychosis"]
+		},
+		{
+			"command": "!meetup [location]",
+			"description": "Register your location and gain access to the meetups role/channel",
+			"roleRequired": "community",
+			"examples": ["!meetup New York City", "!meetup India"]
+		},
+		{
+			"command": "!nvc",
+			"description": "Display nonviolent communication guidelines for servers",
+			"roleRequired": false,
+			"examples": ["!nvc"]
+		},
+		{
+			"command": "!ping",
+			"description": "Return bot latency in milliseconds",
+			"roleRequired": false,
+			"examples": []
+		},
+		{
+			"command": "!roll [dice]",
+			"description": "Roll dice in d20 and other increments",
+			"roleRequired": false,
+			"examples": ["!roll 2d20", "!roll 1d6+5", "!roll 3d10 +2 -4"]
+		},
+		{
+			"command": "!safety [topic]",
+			"description": "Display a list of safety topics, or view safety information pertaining to a specific topic.",
+			"roleRequired": false,
+			"examples": ["!safety", "!safety [topic]"]
+		},
+		{
+			"command": "!serverinfo",
+			"description": "Show information about this server",
+			"roleRequired": false,
+			"examples": []
+		},	
+		{
+			"command": "!torrent",
+			"description": "Display information on the psychedelic library torrent",
+			"roleRequired": false,
+			"examples": ["!torrent"]
+		},
+		{
+			"command": "!visual [playlist]",
+			"description": "Get a random video from a playlist, or don't specify one for a list of playlists",
+			"roleRequired": false,
+			"examples": ["!visual", "!visual music"]
+		},
+		{
+			"command": "!worksheets",
+			"description": "View the collection of cognitive and dialectival behavioral therapy worksheets.",
+			"roleRequired": false,
+			"examples": ["!worksheets", "!worksheets distress-tolerance"]
+		},
+		{
+			"command": "!stoned, !tripping, !altered, !microdosing",
+			"description": "Assign a temporary role to yourself (Sibyl-moderated servers only).",
+			"roleRequired": false,
+			"examples": ["!stoned"]
+		}
+	]
+}

@@ -1,0 +1,66 @@
+{
+	"id": "four",
+	"name": "Four Card Spread",
+	"cards": 4,
+	"layout": [
+		[1, 2, 3, 4]
+	],
+	"layoutImage": {
+		"size": {
+			"height": 300,
+			"width": 800
+		},
+		"querent": {
+			"size": {
+				"height": 210,
+				"width": false
+			}
+		},
+		"cards": [
+			{
+				"placement": {
+					"x": 35,
+					"y":45
+				},
+				"size": {
+					"height": 210,
+					"width": false
+				},
+				"label": "1"
+			},
+			{
+				"placement": {
+					"x": 235,
+					"y":45
+				},
+				"size": {
+					"height": 210,
+					"width": false
+				},
+				"label": "2"
+			},
+			{
+				"placement": {
+					"x": 435,
+					"y":45
+				},
+				"size": {
+					"height": 210,
+					"width": false
+				},
+				"label": "3"
+			},
+			{
+				"placement": {
+					"x": 635,
+					"y":45
+				},
+				"size": {
+					"height": 210,
+					"width": false
+				},
+				"label": "4"
+			}
+		]
+	}
+}

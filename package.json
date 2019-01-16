@@ -1,0 +1,36 @@
+{
+  "name": "librarian-bot",
+  "version": "0.2.7",
+  "description": "![It's her!](http://cdn1.bigcommerce.com/server4500/8skklvbk/products/2409/images/22887/Delphic_Sibyl_Michelangelo___21969.1501257269.490.588.jpg \"Sibyl Image\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "d20": "^1.4.1",
+    "discord": "^0.8.2",
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "forever": "^0.15.3",
+    "full-text-search": "0.0.16",
+    "lunr": "^2.3.5",
+    "pm2": "^3.2.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "8.12.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jellocube/librarian-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jellocube/librarian-bot/issues"
+  },
+  "homepage": "https://github.com/jellocube/librarian-bot#readme"
+}

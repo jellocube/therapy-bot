@@ -1,0 +1,135 @@
+{
+	"id": "celticcross",
+	"name": "Celtic Cross Spread",
+	"cards": 10,
+	"layout": [
+		[false, false, false, 10],
+		[false, 5, false, 9],
+		[3, 1, 4, 8],
+		[false, 6, 2, 7]
+	],
+	"layoutImage": {
+		"size": {
+			"height": 1100,
+			"width": 800
+		},
+		"querent": {
+			"size": {
+				"height": 210,
+				"width": false
+			}
+		},
+		"cards": [
+			{
+				"placement": {
+					"x": 220,
+					"y": 380
+				},
+				"size": {
+					"height": 210,
+					"width": false
+				},
+				"label": "1: The present"
+			},
+			{
+				"placement": {
+					"x": 240,
+					"y": 400
+				},
+				"size": {
+					"height": 210,
+					"width": false
+				},
+				"label": "2: The challenge"
+			},
+			{
+				"placement": {
+					"x": 35,
+					"y": 380
+				},
+				"size": {
+					"height": 210,
+					"width": false
+				},
+				"label": "3: The past"
+			},
+			{
+				"placement": {
+					"x": 400,
+					"y": 380
+				},
+				"size": {
+					"height": 210,
+					"width": false
+				},
+				"label": "4: The future"
+			},
+			{
+				"placement": {
+					"x": 220,
+					"y": 120
+				},
+				"size": {
+					"height": 210,
+					"width": false
+				},
+				"label": "5: Above"
+			},
+			{
+				"placement": {
+					"x": 220,
+					"y": 690
+				},
+				"size": {
+					"height": 210,
+					"width": false
+				},
+				"label": "6: Below"
+			},
+			{
+				"placement": {
+					"x": 590,
+					"y": 810
+				},
+				"size": {
+					"height": 210,
+					"width": false
+				},
+				"label": "7: Advice"
+			},
+			{
+				"placement": {
+					"x": 590,
+					"y": 555
+				},
+				"size": {
+					"height": 210,
+					"width": false
+				},
+				"label": "8: External influences"
+			},
+			{
+				"placement": {
+					"x": 590,
+					"y": 305
+				},
+				"size": {
+					"height": 210,
+					"width": false
+				},
+				"label": "9: Hopes or fears"
+			},
+			{
+				"placement": {
+					"x": 590,
+					"y": 45
+				},
+				"size": {
+					"height": 210,
+					"width": false
+				},
+				"label": "10: Outcome"
+			}
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"decks": {
+		"riderwaite": "tarot/tarot-riderwaite.json",
+		"thoth": "tarot/tarot-thoth.json"
+	},
+	"spreads": {
+		"one": "tarot/spread-one.json",
+		"two": "tarot/spread-two.json",
+		"three": "tarot/spread-three.json",
+		"four": "tarot/spread-four.json",
+		"five": "tarot/spread-five.json",
+		"celticcross": "tarot/spread-celtic-cross.json"
+	}
+}

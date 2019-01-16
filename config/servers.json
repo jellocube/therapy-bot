@@ -1,0 +1,104 @@
+{
+	"servers": [
+		{
+			"name": "Psychedelic Praxis",
+			"id": "350132819307003905",
+            "moderation": true,
+            "muteThreshold": 2,
+        	"muteReact": "🤐",
+            "greeting": "**Welcome to the server, <@${guildMember.id}>!** In order to access more channels please write an introduction in #${channels.introductions} sharing things like your age, region, interests, gender/pronouns, or how you got here. Read the rules and guidelines in #${channels.server}.\n\nTo search the psychedelic library, use ``!library [query]``. To search clinical trials and organizations, try  ``!directory [query]``. To get harm reduction and dosage information, say ``--info [drug]`` or ``!safety`` to get a list of topics.",
+            "greetChannel": "introductions",
+            "prefix": "!",
+            "channels": {
+                "introductions": "introductions",
+                "arbitration": "arbitration",
+                "community": "braintrust",
+                "meetups": "meetups",
+                "casual": "casual",
+                "server": "server",
+                "library": "library",
+                "logs": "logs"
+            }
+        },
+        {
+			"name": "Psychedelic Directory",
+			"id": "510971727967289360",
+			"moderation": true,
+            "muteThreshold": 2,
+            "muteReact": "🤐",
+            "greeting": "**Welcome to the server, <@${guildMember.id}>.** To search the directory of organizations and trials, type ``!directory <query>``. To search psychedelic literature citations, use ``!library <query>``. Try ``!help`` for more options. Please take some time to read the rules and guidelines in #server and enjoy your stay.",
+            "greetChannel": "casual",
+            "prefix": "!",
+            "channels": {
+                "introductions": "casual",
+                "arbitration": "casual",
+                "community": "casual",
+                "meetups": "casual",
+                "casual": "casual",
+                "server": "server-info",
+                "library": "casual",
+                "logs": "logs"
+            }
+        },
+        {
+			"name": "bot testing",
+			"id": "514602806338912256",
+			"moderation": true,
+            "muteThreshold": 2,
+            "muteReact": "🤐",
+            "greeting": "**Welcome to the server, <@${guildMember.id}>.** To search the directory of organizations and trials, type ``!directory <query>``. To search psychedelic literature citations, use ``!library <query>``. Try ``!help`` for more options. Please take some time to read the rules and guidelines in #server and enjoy your stay.",
+            "greetChannel": "casual",
+            "prefix": "!",
+            "channels": {
+                "introductions": "intros",
+                "arbitration": "casual",
+                "community": "casual",
+                "meetups": "casual",
+                "casual": "casual",
+                "server": "server",
+                "library": "casual",
+                "logs": "logs"
+            }
+        },
+        {
+			"name": "Actual Hippies",
+			"id": "428786269661822976",
+			"moderation": false,
+            "muteThreshold": false,
+            "muteReact": "false",
+            "greeting": false,
+            "greetChannel": "casual",
+            "prefix": "!",
+            "channels": {
+                "introductions": false,
+                "arbitration": false,
+                "community": false,
+                "meetups": false,
+                "casual": false,
+                "server": false,
+                "library": false,
+                "logs": false
+            }
+        },
+        {
+			"name": "Subjective Index Documentation",
+			"id": "332288651394547712",
+			"moderation": false,
+            "muteThreshold": false,
+            "muteReact": false,
+            "greeting": false,
+            "greetChannel": false,
+            "prefix": "!",
+            "channels": {
+                "introductions": false,
+                "arbitration": false,
+                "community": false,
+                "meetups": false,
+                "casual": false,
+                "server": false,
+                "library": false,
+                "logs": false
+            }
+		}
+	]
+}
